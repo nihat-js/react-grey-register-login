@@ -46,6 +46,7 @@
                   }
                   input:active{
                      margin-bottom: 1.25rem;
+                     transform: translate(200px,0);
                   }
                   span{
                      font-size: .9rem ;
@@ -53,6 +54,8 @@
                   }
                }
                .ihave{
+                  display: inline-block;
+                  width: fit-content;
                   margin-bottom: 1rem;
                   cursor: pointer;
                }
