@@ -1,0 +1,73 @@
+.signup-page {
+   section.start {
+      background-color: #f7f7f7;
+      .container {
+         .row {
+            padding: 2rem 0;
+            display: flex;
+            justify-content: center;
+
+            form {
+               background-color: #fff;
+               width: 500px;
+               padding: 2rem 1rem;
+               box-shadow: 0 4px 4px rgba(0,0,0,0.25);
+               border-radius: 10px;
+               display: flex;
+               flex-flow: column wrap;
+
+               .input-group {
+                  margin-bottom: 1rem;
+                  h5{
+                     font-size: 1rem;
+                     margin-bottom: .5rem;
+                  }
+                  input {
+                     width: 100%;
+                     margin-bottom: .25rem;
+                     padding: .5rem .8rem;
+                     border : 2px solid rgba(0,0,0,0.1);
+                     
+                     outline: none;
+                     transition: .3s all;
+                     font-size: 1.1rem;
+                     background: none;
+                     border-radius: 6px;
+                     transition: .2s all;
+                  }
+
+                  .haserror {
+                     border : 2px solid #bb2e3e
+                  }
+
+                  input:focus {
+                     border: 2px solid #196CB2;
+                     margin-bottom: 1rem;
+                  }
+                  input:active{
+                     margin-bottom: 1.25rem;
+                  }
+                  span{
+                     font-size: .9rem ;
+                     color: #bb2e3e;
+                  }
+               }
+               .ihave{
+                  margin-bottom: 1rem;
+                  cursor: pointer;
+               }
+               button {
+                  width: 100%;
+                  padding: 1rem .75rem;
+                  border: none;
+                  cursor: pointer;
+               }
+               button:hover{
+                  background-image: linear-gradient(-180deg, rgba(255,255,255,0.18) 0%, rgba(17,17,17,0.08) 100%);
+               }
+
+            }
+         }
+      }
+   }
+}
